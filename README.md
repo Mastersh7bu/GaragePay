@@ -1,2 +1,2 @@
 # GaragePay
-garage pay homt
+garage pay home
