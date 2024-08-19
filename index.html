@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GaragePay</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">GaragePay</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#howItWorks">How it works</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Keep your garage rolling</h1>
+      <p>
+        Streamline Your Garage Operations with Our Easy-to-Use Invoicing and
+        Management Solution
+      </p>
+      <a href="#" class="signup-btn">Sign up</a>
+      <div class="dashboard-preview">
+        <img src="./Landingpics/dashboard.png" alt="Dashboard Preview" />
+      </div>
+    </section>
+    <section id = "about" class="manage-section">
+      <h2>Easiest way to Manage your garage</h2>
+      <p>
+        Effortlessly handle invoicing, payments, and customer communications—so
+        you can focus on fixing cars.
+      </p>
+      <div class="buttons">
+        <a href=#waitlist class="start-btn">Start</a>
+        <a href="#contact" class="contact-btn">Get in touch</a>
+      </div>
+    </section>
+    <section id = "features" class="metrics-invoicing">
+      <div class="metrics">
+        <div class="text-content">
+          <h3>Accurate Metrics</h3>
+          <p>
+            No more sifting through spreadsheets or multiple systems. With our
+            centralized dashboard, you can manage your entire invoicing and
+            payment process from a single, user-friendly interface.
+          </p>
+        </div>
+        <div class="image-content">
+          <img src="./Landingpics/transactions.png" alt="Dashboard Screenshot" />
+        </div>
+      </div>
+
+      <div class="invoicing">
+        <div class="image-content">
+          <img src="./Landingpics/invoice.png"" alt="Invoice Example" />
+        </div>
+        <div class="text-content">
+          <h3>Easy invoicing</h3>
+          <p>Fully custom invoices instantly available.</p>
+        </div>
+      </div>
+    </section>
+    <section id="waitlist" class="signup-cta">
+      <h4>Sign up with your email to use GaragePay</h4>
+      <p>Once signed, you can start making GaragePay your own and go live.</p>
+
+      <form class="signup-form">
+        <input type="email" placeholder="Your email address" required />
+        <button type="submit">Sign up now</button>
+      </form>
+
+      <p class="signup-info">Join 2,000+ others who signed up</p>
+    </section>
+    <!-- Testimonials Section -->
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial-item">
+        <img src="./Landingpics/logo.png" alt="Grace Auto Car" class="company-logo" />
+        <p class="company-name">Grace Auto Car</p>
+        <p class="testimonial-text">
+          Didn’t know how much of a difference this makes to my business, saves
+          me time, money, and my mind.
+        </p>
+        <div class="author">
+          <div class="author-info">
+            <p class="author-name"> - Aju</p>
+            <p class="author-role">Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+      <h2>Pricing</h2>
+      <div class="pricing-card">
+        <h3>£20 /month</h3>
+        <p>Get started with our</p>
+        <ul class ="ul">
+          <li>Unlimited Invoices</li>
+          <li>Payment Processing Integration</li>
+          <li>Basic Customer Management</li>
+          <li>Real-Time Dashboard</li>
+          <li>Email Support</li>
+        </ul>
+        <button href=#waitlist class="get-started">Get Started</button>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id = "howItWorks" class="how-it-works">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Create an Account</h3>
+          <p>
+            Sign up and set up your garage’s profile. Add your logo, contact
+            details, and payment preferences.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Generate Invoices</h3>
+          <p>
+            Quickly create and send invoices with pre-built templates. Include
+            all the details your customers need.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Accept Payments</h3>
+          <p>
+            Let your customers pay directly through the invoice using their
+            preferred payment method.
+          </p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Monitor Your Finances</h3>
+          <p>
+            Track payments, overdue invoices, and financial performance from
+            your dashboard.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <h2>Got Questions?</h2>
+      <p>Feel free to send us an email, we are happy to help out.</p>
+      <form class="contact-form">
+        <input
+          type="text"
+          name="first-name"
+          placeholder="First Name*"
+          required
+        />
+        <input type="text" name="last-name" placeholder="Last Name*" required />
+        <input type="email" name="email" placeholder="Email*" required />
+        <input
+          type="tel"
+          name="phone-number"
+          placeholder="Phone Number*"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your message..."
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+     
+      <nav>
+        <a>GaragePay</a>
+        <a class = "cc">Copyright © <script>document. write( new Date(). getFullYear() );</script></a>
+      </nav>
+    
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
